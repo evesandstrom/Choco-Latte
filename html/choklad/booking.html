@@ -34,6 +34,70 @@
 
     </header>
 
+    <form action="#" method="post">
+      <h2>Bokningsformulär</h2>
+      <fieldset>
+        <legend>Datum</legend>
+        <input type="checkbox" value="30 april" name="date" id="alt1" />
+        <label for="alt1">30 april</label>
+        <input type="checkbox" value="2 maj" name="alt2" />
+        <label for="alt2">2 maj</label>
+        <input type="checkbox" value="7 maj" name="alt3" />
+        <label for="alt3">7 maj</label>
+        <input type="checkbox" value="9 maj" name="alt4" />
+        <label for="alt4">9 maj</label>
+        <input type="checkbox" value="14 maj" name="alt5" />
+        <label for="alt5">14 maj</label>
+        <input type="checkbox" value="16 maj" name="alt6" />
+        <label for="alt6">16 maj</label>
+      </fieldset>
+
+      <p>
+        <label>Antal personer:</label>
+        <select id="noPeople" name="noPeople" size="5">
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+          <option value="4">4</option>
+          <option value="5">5</option>
+          <option value="6">6</option>
+          <option value="7">7</option>
+          <option value="8">8</option>
+          <option value="9">9</option>
+          <option value="10">10</option>
+          <option value="11">11</option>
+          <option value="12">12</option>
+        </select>
+      </p>
+
+      <p>
+        <label for="fname">Förnamn:</label>
+        <input type="text" id="fname" name="fname" size="30" maxlength="30" />
+      </p>
+      <p>
+        <label for="lname">Efternamn:</label>
+        <input type="text" id="lname" name="lname" size="30" maxlength="30" />
+      </p>
+      <p>
+        <label for="mob">Mobil:</label>
+        <input type="tel" id="mob" name="mob" size="30" pattern="[0-9]" />
+      </p>
+      <p>
+        <label for="email">Epost:</label>
+        <input type="email" id="email" name="email" size="30" pattern="\S+@\S+\.+\S" />
+      </p>
+
+      <p>
+        <label for="message">Meddelande:</label>
+        <textarea id="message" name="message" placeholder="Meddelande" cols="30" rows="4"></textarea>
+      </p>
+
+      <p>
+        <input type="submit" value="Skicka" id="submit" name="submit" />
+      </p>
+
+    </form>
+
     <footer>
       <nav>
         <ul>
