@@ -8,115 +8,120 @@
   </head>
 
   <body>
-    <header>
 
-      <nav>
-        <ul>
-          <li><a href="../../index.html">Hem</a></li>
-          <li><a href="../meny/coffee.html">Kaffemeny</a></li>
-          <li><a href="../meny/chocolate.html">Chokladmeny</a></li>
-          <li><a href="testChocolate.html">Chokladprovning</a>
-            <ul>
-              <li><a href="cacao.html">Om Kakao</a></li>
-              <li><a href="#">Boka</a></li>
-            </ul>
-          </li>
-          <li><a href="../about.html">Om Oss</a></li>
-        </ul>
-      </nav>
+    <div id="wrapper">
 
-      <figure>
-      <img src="../../bilder/Logo.png" alt="Logo Choco-Latte" height="308" width="550" />
-      </figure>
-      <h1>Fantastiskt kaffe &amp; läckra bakverk</h1>
-      <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet når du kliver in genom dörren.
-        Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
-        Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.</p>
+      <header>
 
-    </header>
+        <nav>
+          <ul>
+            <li><a href="../../index.html">Hem</a></li>
+            <li><a href="../meny/coffee.html">Kaffemeny</a></li>
+            <li><a href="../meny/chocolate.html">Chokladmeny</a></li>
+            <li><a href="testChocolate.html">Chokladprovning</a>
+              <ul>
+                <li><a href="cacao.html">Om Kakao</a></li>
+                <li><a href="#">Boka</a></li>
+              </ul>
+            </li>
+            <li><a href="../about.html">Om Oss</a></li>
+          </ul>
+        </nav>
 
-    <form action="#" method="post">
-      <h2>Bokningsformulär</h2>
-      <fieldset>
-        <legend>Datum</legend>
-        <input type="checkbox" value="30 april" name="date" id="alt1" />
-        <label for="alt1">30 april</label>
-        <input type="checkbox" value="2 maj" name="date" id="alt2" />
-        <label for="alt2">2 maj</label>
-        <input type="checkbox" value="7 maj" name="date" id="alt3" />
-        <label for="alt3">7 maj</label>
-        <input type="checkbox" value="9 maj" name="date" id="alt4" />
-        <label for="alt4">9 maj</label>
-        <input type="checkbox" value="14 maj" name="date" id="alt5" />
-        <label for="alt5">14 maj</label>
-        <input type="checkbox" value="16 maj" name="date" id="alt6" />
-        <label for="alt6">16 maj</label>
-      </fieldset>
+        <figure>
+        <img src="../../bilder/Logo.png" alt="Logga med texten Choco-Latte i svart kursiv stil. I bakgrunden ett högt glas med brun dryck och skummad mjölk på toppen." height="308" width="550" />
+        </figure>
+        <h1>Fantastiskt kaffe &amp; läckra bakverk</h1>
+        <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet når du kliver in genom dörren.
+          Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
+          Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.</p>
 
-      <p>
-        <label>Antal personer:</label>
-        <select id="noPeople" name="noPeople" size="5">
-          <option value="1">1</option>
-          <option value="2">2</option>
-          <option value="3">3</option>
-          <option value="4">4</option>
-          <option value="5">5</option>
-          <option value="6">6</option>
-          <option value="7">7</option>
-          <option value="8">8</option>
-          <option value="9">9</option>
-          <option value="10">10</option>
-          <option value="11">11</option>
-          <option value="12">12</option>
-        </select>
-      </p>
+      </header>
 
-      <p>
-        <label for="fname">Förnamn:</label>
-        <input type="text" id="fname" name="fname" size="30" maxlength="30" />
-      </p>
-      <p>
-        <label for="lname">Efternamn:</label>
-        <input type="text" id="lname" name="lname" size="30" maxlength="30" />
-      </p>
-      <p>
-        <label for="mob">Mobil:</label>
-        <input type="tel" id="mob" name="mob" size="30" pattern="[0-9]" />
-      </p>
-      <p>
-        <label for="email">Epost:</label>
-        <input type="email" id="email" name="email" size="30" pattern="\S+@\S+\.+\S" />
-      </p>
+      <form action="#" method="post">
+        <h2>Bokningsformulär</h2>
+        <fieldset>
+          <legend>Datum</legend>
+          <input type="checkbox" value="30 april" name="date" id="alt1" />
+          <label for="alt1">30 april</label>
+          <input type="checkbox" value="2 maj" name="date" id="alt2" />
+          <label for="alt2">2 maj</label>
+          <input type="checkbox" value="7 maj" name="date" id="alt3" />
+          <label for="alt3">7 maj</label>
+          <input type="checkbox" value="9 maj" name="date" id="alt4" />
+          <label for="alt4">9 maj</label>
+          <input type="checkbox" value="14 maj" name="date" id="alt5" />
+          <label for="alt5">14 maj</label>
+          <input type="checkbox" value="16 maj" name="date" id="alt6" />
+          <label for="alt6">16 maj</label>
+        </fieldset>
 
-      <p>
-        <label for="message">Meddelande:</label>
-        <textarea id="message" name="message" placeholder="Meddelande" cols="30" rows="4"></textarea>
-      </p>
+        <p>
+          <label>Antal personer:</label>
+          <select id="noPeople" name="noPeople" size="5">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+          </select>
+        </p>
 
-      <p>
-        <input type="submit" value="Skicka" id="submit" name="submit" />
-      </p>
+        <p>
+          <label for="fname">Förnamn:</label>
+          <input type="text" id="fname" name="fname" size="30" maxlength="30" />
+        </p>
+        <p>
+          <label for="lname">Efternamn:</label>
+          <input type="text" id="lname" name="lname" size="30" maxlength="30" />
+        </p>
+        <p>
+          <label for="mob">Mobil:</label>
+          <input type="tel" id="mob" name="mob" size="30" pattern="[0-9]" />
+        </p>
+        <p>
+          <label for="email">Epost:</label>
+          <input type="email" id="email" name="email" size="30" pattern="\S+@\S+\.+\S" />
+        </p>
 
-    </form>
+        <p>
+          <label for="message">Meddelande:</label>
+          <textarea id="message" name="message" placeholder="Meddelande" cols="30" rows="4"></textarea>
+        </p>
 
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="../../index.html">Hem</a></li>
-          <li><a href="../meny/coffee.html">Kaffemeny</a></li>
-          <li><a href="../meny/chocolate.html">Chokladmeny</a></li>
-          <li><a href="testChocolate.html">Chokladprovning</a>
-            <ul>
-              <li><a href="cacao.html">Om Kakao</a></li>
-              <li><a href="#">Boka</a></li>
-            </ul>
-          </li>
-          <li><a href="../about.html">Om Oss</a></li>
-        </ul>
-      </nav>
+        <p>
+          <input type="submit" value="Skicka" id="submit" name="submit" />
+        </p>
 
-      <p>&copy; Copyright 2018 Café Choco-Latte</p>
-    </footer>
+      </form>
+
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="../../index.html">Hem</a></li>
+            <li><a href="../meny/coffee.html">Kaffemeny</a></li>
+            <li><a href="../meny/chocolate.html">Chokladmeny</a></li>
+            <li><a href="testChocolate.html">Chokladprovning</a>
+              <ul>
+                <li><a href="cacao.html">Om Kakao</a></li>
+                <li><a href="#">Boka</a></li>
+              </ul>
+            </li>
+            <li><a href="../about.html">Om Oss</a></li>
+          </ul>
+        </nav>
+
+        <p>&copy; Copyright 2018 Café Choco-Latte</p>
+      </footer>
+
+    </div>
 
   </body>
 

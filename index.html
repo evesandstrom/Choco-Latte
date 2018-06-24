@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- Doctype används för att bestämma dokument typen och vilken syntax som ska följas -->
+<!-- Doctype används för att bestämma dokument typen och talar om för web browsern vilken version av html som används -->
 
 <html lang="sv">
 
@@ -9,89 +9,94 @@
   </head>
 
   <body>
-    <header>
 
-      <nav>
-        <ul>
-          <li><a href="#">Hem</a></li>
-          <li><a href="html/meny/coffee.html">Kaffemeny</a></li>
-          <li><a href="html/meny/chocolate.html">Chokladmeny</a></li>
-          <li><a href="html/choklad/testChocolate.html">Chokladprovning</a>
-            <ul>
-              <li><a href="html/choklad/cacao.html">Om Kakao</a></li>
-              <li><a href="html/choklad/booking.html">Boka</a></li>
-            </ul>
-          </li>
-          <li><a href="html/about.html">Om Oss</a></li>
-        </ul>
-      </nav>
+    <div id="wrapper">
 
-      <figure>
-      <img src="bilder/Logo.png" alt="Logo Choco-Latte" height="308" width="550" />
-      </figure>
-      <h1>Fantastiskt kaffe &amp; läckra bakverk</h1>
-      <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet når du kliver in genom dörren.
-        Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
-        Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.</p>
+      <header>
 
-    </header>
+        <nav>
+          <ul>
+            <li><a href="#">Hem</a></li>
+            <li><a href="html/meny/coffee.html">Kaffemeny</a></li>
+            <li><a href="html/meny/chocolate.html">Chokladmeny</a></li>
+            <li><a href="html/choklad/testChocolate.html">Chokladprovning</a>
+              <ul>
+                <li><a href="html/choklad/cacao.html">Om Kakao</a></li>
+                <li><a href="html/choklad/booking.html">Boka</a></li>
+              </ul>
+            </li>
+            <li><a href="html/about.html">Om Oss</a></li>
+          </ul>
+        </nav>
 
-    <section>
-      <h2>Fantastiskt kaffe</h2>
-      <figure>
-      <img src="bilder/cols-img.png" alt="En tecknad kaffekopp" height="80" width="76" />
-      </figure>
-      <p>Intensiva dofter, fylliga smaker och oavsett rostning och tillredning finns kaffe för alla smaker. Vårt kaffe är fantastiskt!</p>
-      <a href="html/meny/coffee.html">Kaffemeny</a>
+        <figure>
+          <img src="bilder/Logo.png" alt="Logga med texten Choco-Latte i svart kursiv stil. I bakgrunden ett högt glas med brun dryck och skummad mjölk på toppen." height="308" width="550" />
+        </figure>
+        <h1>Fantastiskt kaffe &amp; läckra bakverk</h1>
+        <p>Vi vill vara en kaffeoas där du känner de intensiva dofterna från kaffet når du kliver in genom dörren.
+          Vi är en plats där du för varje kopp kaffe och bakverk ska uppleva en sann njutning och smaksensation.
+          Vi vill ge dig hög kvalitet utan att tumma på rättvisan gentemot kaffe- och kakoodlarna.</p>
 
-      <h2>Läckra bakverk</h2>
-      <figure>
-      <img src="bilder/cols-img2.png" alt="En tecknad chokladmuffin" height="80" width="76" />
-      </figure>
-      <p>Choklad av hög kvalitet i varje bakverk. Mäktiga och smakrika. Himmelriket för chokladälskaren!</p>
-      <a href="html/meny/chocolate.html">Chokladmeny</a>
+      </header>
 
-      <h2>Här hittar du oss</h2>
-      <figure>
-      <img src="bilder/cols-img3.png" alt="En linjal och en penna" height="80" width="76" />
-      </figure>
-      <p>Du hittar oss på en bakgata i närheten av Kungsparken. Kolla in kartan och gör ett besök.</p>
-      <a href="#">Karta</a>
+      <article>
+        <h2>Fantastiskt kaffe</h2>
+        <figure>
+        <img src="bilder/cols-img.png" alt="Ikon med en tecknad kaffekopp och orange bakgrund" height="80" width="76" />
+        </figure>
+        <p>Intensiva dofter, fylliga smaker och oavsett rostning och tillredning finns kaffe för alla smaker. Vårt kaffe är fantastiskt!</p>
+        <a href="html/meny/coffee.html">Kaffemeny</a>
 
-      <h2>Nyheter</h2>
+        <h2>Läckra bakverk</h2>
+        <figure>
+        <img src="bilder/cols-img2.png" alt="Ikon med en tecknad chokladmuffin i orange muffinform" height="80" width="76" />
+        </figure>
+        <p>Choklad av hög kvalitet i varje bakverk. Mäktiga och smakrika. Himmelriket för chokladälskaren!</p>
+        <a href="html/meny/chocolate.html">Chokladmeny</a>
 
-      <figure>25 april 2018</figure>
-      <h3>Chokladprovning</h3>
-      <p>Boka in dig själv, kollegorna, kompisarna till en kväll där vi testar choklad av olika kakaobönor och pratar historia kring chokladen.
-        <a href="html/choklad/testChocolate.html">Läs mer om Chokladprovning</a>
-      </p>
+        <h2>Här hittar du oss</h2>
+        <figure>
+        <img src="bilder/cols-img3.png" alt="Ikon med en linjal och en grön blyertspenna" height="80" width="76" />
+        </figure>
+        <p>Du hittar oss på en bakgata i närheten av Kungsparken. Kolla in kartan och gör ett besök.</p>
+        <a href="#">Karta</a>
 
-      <figure>22 april 2018</figure>
-      <h3>Ny kaffesmak</h3>
-      <p>Vi testar hela tiden nya rostningar och smaksättningar. Denna dag är det premiär för vår nya smak Romerska bågar.
-        <a href="html/meny/coffee.html">Läs mer om våra Kaffesmaker</a>
-      </p>
+        <h2>Nyheter</h2>
 
-    </section>
+        <figure>25 april 2018</figure>
+        <h3>Chokladprovning</h3>
+        <p>Boka in dig själv, kollegorna, kompisarna till en kväll där vi testar choklad av olika kakaobönor och pratar historia kring chokladen.
+          <a href="html/choklad/testChocolate.html">Läs mer om Chokladprovning</a>
+        </p>
 
-    <footer>
-      <nav>
-        <ul>
-          <li><a href="#">Hem</a></li>
-          <li><a href="html/meny/coffee.html">Kaffemeny</a></li>
-          <li><a href="html/meny/chocolate.html">Chokladmeny</a></li>
-          <li><a href="html/choklad/testChocolate.html">Chokladprovning</a>
-            <ul>
-              <li><a href="html/choklad/cacao.html">Om Kakao</a></li>
-              <li><a href="html/choklad/booking.html">Boka</a></li>
-            </ul>
-          </li>
-          <li><a href="html/about.html">Om Oss</a></li>
-        </ul>
-      </nav>
+        <figure>22 april 2018</figure>
+        <h3>Ny kaffesmak</h3>
+        <p>Vi testar hela tiden nya rostningar och smaksättningar. Denna dag är det premiär för vår nya smak Romerska bågar.
+          <a href="html/meny/coffee.html">Läs mer om våra Kaffesmaker</a>
+        </p>
 
-      <p>&copy; Copyright 2018 Café Choco-Latte</p>
-    </footer>
+      </article>
+
+      <footer>
+        <nav>
+          <ul>
+            <li><a href="#">Hem</a></li>
+            <li><a href="html/meny/coffee.html">Kaffemeny</a></li>
+            <li><a href="html/meny/chocolate.html">Chokladmeny</a></li>
+            <li><a href="html/choklad/testChocolate.html">Chokladprovning</a>
+              <ul>
+                <li><a href="html/choklad/cacao.html">Om Kakao</a></li>
+                <li><a href="html/choklad/booking.html">Boka</a></li>
+              </ul>
+            </li>
+            <li><a href="html/about.html">Om Oss</a></li>
+          </ul>
+        </nav>
+
+        <p>&copy; Copyright 2018 Café Choco-Latte</p>
+      </footer>
+
+    </div>
 
   </body>
 
